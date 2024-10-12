@@ -16,8 +16,8 @@ Ejemplos de resolución de ecuaciones diferenciales ordinarias utilizando python
 ---
 
 ## Temas
-1. [Sistemas lineales](https://github.com/rirastorza/ejemplosODE/blob/master/Sistemas_lineales/))
-2. [Sistemas no lineales](https://github.com/rirastorza/ejemplosODE/blob/master/Sistemas_no_lineales/))    
+1. [Sistemas lineales](https://github.com/rirastorza/ejemplosODE/blob/master/Sistemas_lineales/)
+2. [Sistemas no lineales](https://github.com/rirastorza/ejemplosODE/blob/master/Sistemas_no_lineales/)    
 ---
 
 ## Recursos
