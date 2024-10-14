@@ -34,3 +34,12 @@ plt.xlabel('Tiempo (hrs)')
 plt.ylabel('Cantidad de bacterias')
 plt.legend(['x0=1','x0=2','x0=3'])
 plt.show() 
+
+#Ahora con sympy, solución analítica
+
+from sympy import Function, dsolve, Derivative, checkodesol
+from sympy.abc import t,k
+x = Function('x')
+result = dsolve(Derivative(x(t), t, 1) - k*x(t), x(t))
+print(result)
+print(checkodesol(Derivative(x(t), t, 1) - k*x(t), result))
